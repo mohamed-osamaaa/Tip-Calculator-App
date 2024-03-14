@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <title>Mohamed Osama Abdel hamid</title>
+</head>
+
+<body>
+    <main>
+        <img src="img/logo.svg">
+        <section class="calculator-container">
+            <div class="user-input-container">
+                <div>
+                    <div class="input-headings">
+                        <p>
+                            Bill
+                        </p>
+                    </div>
+
+                    <input class="full-width-input" id="bill-total-input" type="number" placeholder="0">
+
+                </div>
+
+                <div>
+                    <p>
+                        Select Tip %
+                    </p>
+                    <div class="tip-btn-container">
+                        <button class="active-tip tip-btn">5%</button>
+                        <button class="tip-btn">10%</button>
+                        <button class="tip-btn">15%</button>
+                        <button class="tip-btn">20%</button>
+                        <button class="tip-btn">25%</button>
+                        <input id="custom-tip-input" type="number" placeholder="Custom">
+                    </div>
+
+                </div>
+
+                <div>
+                    <div class="input-headings">
+                        <p>
+                            Number of People
+                        </p>
+                    </div>
+
+                    <input class="full-width-input" id="total-people-input" type="number" placeholder="0">
+                </div>
+            </div>
+
+            <div class="tip-result-container">
+                <div class="tip-result-content">
+                    <div class="result-container">
+                        <div class="tip-result-heading">
+                            <p>
+                                Tip Amount
+                            </p>
+                            <h5>
+                                / person
+                            </h5>
+
+                        </div>
+                        <h1 id="tip-amount-total-display">$0.00</h1>
+                    </div>
+
+                    <div class="result-container">
+                        <div class="tip-result-heading">
+                            <p>
+                                Total
+                            </p>
+                            <h5>
+                                / person
+                            </h5>
+
+                        </div>
+                        <h1 id="total-display">$0.00</h1>
+                    </div>
+
+
+                </div>
+
+                <button id="reset-btn">RESET</button>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
