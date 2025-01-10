@@ -3,7 +3,7 @@
 
 
 
-```markdown
+
 # Tip Calculator App
 
 A simple and responsive Tip Calculator built using HTML & CSS. This app allows users to input a bill amount, select a tip percentage, and enter the number of people to split the bill. It then calculates and displays the tip amount and total cost per person.
